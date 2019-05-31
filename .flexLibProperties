@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="ppf.tool.components.diagrammer.DragContainer"/>
+    <classEntry path="ppf.tool.components.diagrammer.DragList"/>
+    <classEntry path="ppf.tool.components.diagrammer.DragItem"/>
+    <classEntry path="ppf.tool.components.controls.AxisView"/>
+    <classEntry path="ppf.tool.components.views.AxisView"/>
+    <classEntry path="ppf.tool.components.views.ChartTip"/>
+    <classEntry path="ppf.tool.components.controls.ChartTip"/>
+    <classEntry path="ppf.tool.components.controls.TipManager"/>
+    <classEntry path="ppf.tool.components.IDataGridColumnSortField"/>
+    <classEntry path="ppf.tool.components.IDragItem"/>
+    <classEntry path="ppf.tool.components.events.OpRendererEvent"/>
+    <classEntry path="ppf.tool.components.events.DragItemEvent"/>
+    <classEntry path="ppf.tool.components.events.DvBtnClickEvent"/>
+    <classEntry path="ppf.tool.components.events.EventExtend"/>
+    <classEntry path="ppf.tool.components.events.DataGridColumnEvent"/>
+    <classEntry path="ppf.tool.others.ArrayDict"/>
+    <classEntry path="ppf.tool.others.ArrayUtil"/>
+    <classEntry path="ppf.tool.effect.IconUtility"/>
+    <classEntry path="ppf.tool.effect.FileFilterUtil"/>
+    <classEntry path="ppf.tool.effect.BitmapBytesUtil"/>
+    <classEntry path="ppf.tool.text.RestrictUtil"/>
+    <classEntry path="ppf.tool.components.JSUtil"/>
+    <classEntry path="ppf.tool.components.ValidUtil"/>
+    <classEntry path="ppf.tool.components.URLUtil"/>
+    <classEntry path="ppf.tool.components.IRestrict"/>
+    <classEntry path="ppf.tool.components.IInput"/>
+    <classEntry path="ppf.tool.components.IListData"/>
+    <classEntry path="ppf.tool.components.IMDIWindows"/>
+    <classEntry path="ppf.tool.components.ErrorTipManager"/>
+    <classEntry path="ppf.tool.components.RightClickManager"/>
+    <classEntry path="ppf.tool.components.LeftClickManager"/>
+    <classEntry path="ppf.tool.others.Tick"/>
+    <classEntry path="ppf.tool.others.DictionaryUtil"/>
+    <classEntry path="ppf.tool.components.TextFieldUtil"/>
+    <classEntry path="ppf.tool.others.TickEvent"/>
+    <classEntry path="ppf.tool.math.SpectrumDrawer"/>
+    <classEntry path="ppf.tool.math.WaveDrawer"/>
+    <classEntry path="ppf.tool.math.DateUtil"/>
+    <classEntry path="ppf.tool.components.controls.MenuBar"/>
+    <classEntry path="ppf.tool.auth.AuthConst"/>
+    <classEntry path="ppf.tool.rpc.remoting.MD5"/>
+    <classEntry path="ppf.tool.components.mx.components.renderers.DataGridNumberTextInputItemRenderer"/>
+    <classEntry path="ppf.tool.components.mx.components.controls.dataGridClasses.DataGridColumnNumberTextInput"/>
+    <classEntry path="ppf.tool.components.mx.components.controls.dataGridClasses.SetButton"/>
+    <classEntry path="ppf.tool.components.mx.components.renderers.OperateSetItemRenderer"/>
+    <classEntry path="ppf.tool.components.mx.components.controls.dataGridClasses.DataGridColumnCommonSetButton"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
