@@ -1,0 +1,33 @@
+<project name="Flex Ant Compac GrusenLib" default="main">
+	<property name="FLEX_HOME" value="C:/Program Files/Adobe/Adobe Flash Builder 4.6/sdks/4.6.0"/>
+	<taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
+	<target name="main">
+		<echo>Start to compac ToolLib...</echo>
+		<compc output="${basedir}/bin/ToolLib.swc" optimize="true" benchmark="true"
+            strict = "true"
+            debug="true"
+			incremental="true" fork="false"
+            actionscript-file-encoding="utf-8"
+			maxmemory="512m"
+            >
+            <source-path path-element="${basedir}/src"/>
+			<compiler.library-path dir="../../Job_BaseLib/workspace/bin" append="true">  
+				<include name="BaseLib.swc"/>
+			</compiler.library-path>
+			 <!-- 指定编译的文件列表 -->
+			<include-sources dir="${basedir}/src">
+                <include name="**/*.as" />
+            	<include name="**/*.mxml"/>
+            </include-sources>
+			<compiler.include-libraries dir="${basedir}/libs" append="true">   
+                <include name="*.*"/>   
+            </compiler.include-libraries>
+            <!-- 将Flex SDK 作为外部库进行引用 -->
+            <compiler.external-library-path dir="${FLEX_HOME}/frameworks">
+                <include name="**/*.swc" />
+            </compiler.external-library-path>
+        </compc>
+		<echo>Output directory: "${basedir}/bin"</echo>
+		<echo>Compc BaseLib success!</echo>
+	</target>
+</project>
